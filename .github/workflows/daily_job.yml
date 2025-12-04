@@ -2,9 +2,9 @@ name: Descarga Rentabilidades FIC
 
 on:
   schedule:
-    # Ejecutar a las 14, 16, 18, 20 y 22 UTC
-    # (Equivalente a 9am, 11am, 1pm, 3pm y 5pm Hora Colombia)
-    - cron: '0 14,16,18,20,22 * * *'
+    # Cronograma: Minuto 30, Horas 0 y de 12 a 23 (UTC)
+    # Esto equivale a: 7:30 AM hasta 7:30 PM (Hora Colombia), cada hora.
+    - cron: '30 0,12-23 * * *'
   workflow_dispatch: # Botón manual para pruebas
 
 permissions:
@@ -20,12 +20,14 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.13' # 👈 Actualizado a Python 3.13
           
       - name: Instalar dependencias
         run: pip install -r requirements.txt
         
       - name: Ejecutar script
+        env:
+          LLAMA_CLOUD_API_KEY: ${{ secrets.LLAMA_CLOUD_API_KEY }}
         run: python main.py
         
       - name: Guardar cambios
@@ -35,11 +37,8 @@ jobs:
           
           git add data/
           
-          # Hacemos commit solo si hay cambios.
-          # Usamos fecha y hora en el mensaje para diferenciar las 5 ejecuciones diarias
+          # Commit solo si hay cambios nuevos
           git commit -m "📈 FIC Update: $(date +'%Y-%m-%d %H:%M')" || echo "Sin cambios nuevos"
           
-          # pull --rebase es clave aquí porque si se ejecuta 5 veces al día,
-          # evita conflictos si una ejecución anterior cambió el repo.
           git pull --rebase
           git push

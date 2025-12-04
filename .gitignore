@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# notebook
+*.ipynb_checkpoints
+*.ipynb
 # C extensions
 *.so
 
