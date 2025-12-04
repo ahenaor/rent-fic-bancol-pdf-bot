@@ -8,6 +8,8 @@ __pycache__/
 *.ipynb
 # C extensions
 *.so
+.DS_Store
+*.DS_Store
 
 # Distribution / packaging
 .Python
