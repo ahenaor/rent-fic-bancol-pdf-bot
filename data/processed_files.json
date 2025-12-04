@@ -1,5 +1,9 @@
 {
     "20251201": "rentabilidades_fic_2025-12-01_08-59-02.pdf",
     "20251202": "rentabilidades_fic_2025-12-02_09-40-23.pdf",
-    "20251203": "rentabilidades_fic_2025-12-03_15-43-10.pdf"
+    "20251203": "rentabilidades_fic_2025-12-03_15-43-10.pdf",
+    "20251204": {
+        "downloaded_at": "2025-12-04_13-52-47",
+        "path": "data/raw_pdf/2025/12/rentabilidades_fic_20251204_downloaded_2025-12-04_13-52-47.pdf"
+    }
 }
