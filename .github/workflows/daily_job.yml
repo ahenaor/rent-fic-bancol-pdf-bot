@@ -28,7 +28,7 @@ jobs:
       - name: Ejecutar script
         env:
           LLAMA_CLOUD_API_KEY: ${{ secrets.LLAMA_CLOUD_API_KEY }}
-        run: python main.py
+        run: rent-fic-bancol-pdf-bot
         
       - name: Guardar cambios
         run: |

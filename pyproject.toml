@@ -17,5 +17,8 @@ dependencies = [
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-py-modules = ["main"]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+rent-fic-bancol-pdf-bot = "rent_fic_bancol_pdf_bot.main:main"
