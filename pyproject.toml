@@ -1,0 +1,21 @@
+[project]
+name = "rent-fic-bancol-pdf-bot"
+version = "0.1.0"
+description = "A simple PDF bot for Bancolombia FIC returns"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = [
+    "requests>=2.31.0,<3.0.0",
+    "pypdf>=3.17.0,<4.0.0",
+    "llama-parse>=0.4.0,<1.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+    "pyyaml>=6.0.0,<7.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
