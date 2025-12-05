@@ -1,0 +1,45 @@
+# Configuration file for rent-fic-bancol-pdf-bot
+
+# Download settings
+download:
+  url: "https://www.bancolombia.com/wcm/connect/b6ff8232-01bc-4c48-ab13-64478693f86d/Informe+Rentabilidades+FIC.pdf?MOD=AJPERES"
+  timeout: 60  # seconds
+  max_retries: 3
+  backoff_base: 5  # base seconds for exponential backoff (5, 10, 20...)
+
+# File paths
+paths:
+  json_status_file: "data/processed_files.json"
+  debug_file: "data/debug_last_markdown.txt"
+  raw_pdf_base: "data/raw_pdf"
+
+# Date patterns for extraction
+date_patterns:
+  primary: "Fecha de publicación:\\s*(\\d{1,2})\\s+de\\s+([a-zA-Z]+)\\s+de\\s+(\\d{4})"
+  fallback: "Fecha\\s+de\\s+publicación[:\\s]*(\\d{1,2})\\s+de\\s+([a-zA-Z]+)\\s+de\\s+(\\d{4})"
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s [%(levelname)s] %(message)s"
+
+# LlamaParse settings
+llama_parse:
+  result_type: "markdown"
+  verbose: false
+  language: "es"
+
+# Month mapping (Spanish to numeric)
+months:
+  enero: "01"
+  febrero: "02"
+  marzo: "03"
+  abril: "04"
+  mayo: "05"
+  junio: "06"
+  julio: "07"
+  agosto: "08"
+  septiembre: "09"
+  octubre: "10"
+  noviembre: "11"
+  diciembre: "12"
