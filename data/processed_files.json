@@ -9,5 +9,9 @@
     "20251205": {
         "downloaded_at": "2025-12-05_16-48-52",
         "path": "data/raw_pdf/2025/12/rentabilidades_fic_20251205_downloaded_2025-12-05_16-48-52.pdf"
+    },
+    "20251209": {
+        "downloaded_at": "2025-12-09_15-43-18",
+        "path": "data/raw_pdf/2025/12/rentabilidades_fic_20251209_downloaded_2025-12-09_15-43-18.pdf"
     }
 }
