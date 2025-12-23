@@ -49,5 +49,9 @@
     "20251222": {
         "downloaded_at": "2025-12-22_13-50-51",
         "path": "data/raw_pdf/2025/12/rentabilidades_fic_20251222_downloaded_2025-12-22_13-50-51.pdf"
+    },
+    "20251223": {
+        "downloaded_at": "2025-12-23_15-42-58",
+        "path": "data/raw_pdf/2025/12/rentabilidades_fic_20251223_downloaded_2025-12-23_15-42-58.pdf"
     }
 }
