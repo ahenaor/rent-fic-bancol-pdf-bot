@@ -2,10 +2,9 @@ name: Descarga Rentabilidades FIC
 
 on:
   schedule:
-    # Cronograma: Minuto 30, Horas 0 y de 12 a 23 (UTC)
-    # Esto equivale a: 7:30 AM hasta 7:30 PM (Hora Colombia), cada hora.
-    - cron: '30 0,12-23 * * *'
+    - cron: '0 1 * * *'  # 8:00 PM Colombia (UTC-5) = 01:00 UTC
   workflow_dispatch: # Botón manual para pruebas
+
 
 permissions:
   contents: write
