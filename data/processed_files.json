@@ -85,5 +85,9 @@
     "20260107": {
         "downloaded_at": "2026-01-08_03-00-45",
         "path": "data/raw_pdf/2026/01/rentabilidades_fic_20260107_downloaded_2026-01-08_03-00-45.pdf"
+    },
+    "20260108": {
+        "downloaded_at": "2026-01-09_03-01-42",
+        "path": "data/raw_pdf/2026/01/rentabilidades_fic_20260108_downloaded_2026-01-09_03-01-42.pdf"
     }
 }
