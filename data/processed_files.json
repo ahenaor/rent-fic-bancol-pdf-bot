@@ -97,5 +97,9 @@
     "20260114": {
         "downloaded_at": "2026-01-15_03-01-45",
         "path": "data/raw_pdf/2026/01/rentabilidades_fic_20260114_downloaded_2026-01-15_03-01-45.pdf"
+    },
+    "20260115": {
+        "downloaded_at": "2026-01-16_03-02-41",
+        "path": "data/raw_pdf/2026/01/rentabilidades_fic_20260115_downloaded_2026-01-16_03-02-41.pdf"
     }
 }
