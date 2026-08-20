@@ -573,5 +573,9 @@
     "20260814": {
         "downloaded_at": "2026-08-15_02-16-13",
         "path": "data/raw_pdf/2026/08/rentabilidades_fic_20260814_downloaded_2026-08-15_02-16-13.pdf"
+    },
+    "20260819": {
+        "downloaded_at": "2026-08-20_02-19-50",
+        "path": "data/raw_pdf/2026/08/rentabilidades_fic_20260819_downloaded_2026-08-20_02-19-50.pdf"
     }
 }
