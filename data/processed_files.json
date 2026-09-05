@@ -609,5 +609,9 @@
     "20260902": {
         "downloaded_at": "2026-09-03_05-37-51",
         "path": "data/raw_pdf/2026/09/rentabilidades_fic_20260902_downloaded_2026-09-03_05-37-51.pdf"
+    },
+    "20260904": {
+        "downloaded_at": "2026-09-05_05-33-22",
+        "path": "data/raw_pdf/2026/09/rentabilidades_fic_20260904_downloaded_2026-09-05_05-33-22.pdf"
     }
 }
