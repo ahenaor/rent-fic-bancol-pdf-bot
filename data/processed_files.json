@@ -713,5 +713,9 @@
     "20261022": {
         "downloaded_at": "2026-10-23_05-54-00",
         "path": "data/raw_pdf/2026/10/rentabilidades_fic_20261022_downloaded_2026-10-23_05-54-00.pdf"
+    },
+    "20261023": {
+        "downloaded_at": "2026-10-24_05-38-06",
+        "path": "data/raw_pdf/2026/10/rentabilidades_fic_20261023_downloaded_2026-10-24_05-38-06.pdf"
     }
 }
