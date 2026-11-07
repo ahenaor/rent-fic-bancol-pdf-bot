@@ -737,5 +737,9 @@
     "20261105": {
         "downloaded_at": "2026-11-06_07-50-52",
         "path": "data/raw_pdf/2026/11/rentabilidades_fic_20261105_downloaded_2026-11-06_07-50-52.pdf"
+    },
+    "20261106": {
+        "downloaded_at": "2026-11-07_06-59-13",
+        "path": "data/raw_pdf/2026/11/rentabilidades_fic_20261106_downloaded_2026-11-07_06-59-13.pdf"
     }
 }
